@@ -1,0 +1,7 @@
+bug_Detector\DirExplorer$FileHandler.class
+bug_Detector\DirExplorer.class
+bug_Detector\patterns\Bug.class
+bug_Detector\patterns\EqualsHashcodeBugPattern.class
+bug_Detector\DirExplorer$Filter.class
+bug_Detector\patterns\BugPattern.class
+bug_Detector\helpers\Checker.class
