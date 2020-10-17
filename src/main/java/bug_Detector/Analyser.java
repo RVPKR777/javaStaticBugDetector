@@ -1,4 +1,4 @@
-package assignment;
+package bug_Detector;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package assignment;
+package bug_Detector;
 
 import com.github.javaparser.JavaParser;
 import com.github.javaparser.ast.NodeList;
@@ -55,7 +55,7 @@ public class HashCodeAnalyser {
                 ex.printStackTrace();
             }
             
-            if (equalPresent[0] && !hashPresent[0]) {
+            if (!equalPresent[0] && hashPresent[0]) {
                 bugs.addBug(file.toString(), errorLine[0], this.equalBugType);
             }
         });

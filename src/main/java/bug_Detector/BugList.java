@@ -1,4 +1,4 @@
-package assignment;
+package bug_Detector;
 
 import java.util.ArrayList;
 
