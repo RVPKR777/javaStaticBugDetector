@@ -1,6 +1,7 @@
 package bug_Detector.helpers;
 
 import bug_Detector.DirExplorer;
+import bug_Detector.Util;
 import bug_Detector.patterns.BugPattern;
 import bug_Detector.patterns.DuplicateLoggingStatementInCatchBlockOfSameTryBugPattern;
 import com.github.javaparser.JavaParser;
@@ -17,6 +18,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class DuplicateLoggingStatementInCatchBlockOfSameTryChecker implements Checker {
 

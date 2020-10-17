@@ -6,6 +6,7 @@ import bug_Detector.helpers.EqualsHashcodeChecker;
 import bug_Detector.patterns.BugPattern;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -23,5 +24,8 @@ public class main {
 
         checker = new DuplicateLoggingStatementInCatchBlockOfSameTryChecker();
         bugPatterns.addAll(checker.check(projectDir));
+
+        System.out.println(bugPatterns);
+
     }
 }
