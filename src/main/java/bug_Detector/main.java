@@ -1,31 +1,19 @@
-package bug_Detector;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package assignment;
+import java.util.Scanner;
 
-import bug_Detector.helpers.Checker;
-import bug_Detector.helpers.DuplicateLoggingStatementInCatchBlockOfSameTryChecker;
-import bug_Detector.helpers.EqualsHashcodeChecker;
-import bug_Detector.patterns.BugPattern;
+public class Main {
+    
+    
+    public static void main(String args[]) {
+        Scanner myObj = new Scanner(System.in);
+        System.out.println("C://Users//pavan//Downloads//cloudstack-4.9");
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
-
-public class main {
-    public static void main(String[] args) {
-
-
-        File projectDir = new File("C://Users//pavan//Downloads//cloudstack-4.9.0");
-
-        // Create a hashset of bug patterns so that we won't have any duplicates
-        Set<BugPattern> bugPatterns = new HashSet<>();
-
-        Checker checker = new EqualsHashcodeChecker();
-        bugPatterns.addAll(checker.check(projectDir));
-
-        checker = new DuplicateLoggingStatementInCatchBlockOfSameTryChecker();
-        bugPatterns.addAll(checker.check(projectDir));
-
-        System.out.println(bugPatterns);
-
-    }
+        String dir = myObj.nextLine();  
+            new Analyser(dir);
+        }
 }
