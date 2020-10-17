@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package bug_Detector;
 
 import com.github.javaparser.JavaParser;
@@ -42,12 +38,13 @@ public class HashCodeAnalyser {
                             NodeList<Parameter> nodes = mthodDeclaration.getParameters();
                             if ((nodes.size() == 1) && (nodes.get(0).getTypeAsString().equals("Object"))) {
                                 equalPresent[0] = true;
-                                errorLine[0] = (mthodDeclaration.getRange().isPresent() ? mthodDeclaration.getRange().get().begin.line : 0);
+
                             }
                         } else if (mthodDeclaration.getNameAsString().equals("hashCode") &&
                                 mthodDeclaration.getTypeAsString().equals("int") &&
                                 mthodDeclaration.getParameters().isEmpty()) {
                                     hashPresent[0] = true;
+                                    errorLine[0] = (mthodDeclaration.getRange().isPresent() ? mthodDeclaration.getRange().get().begin.line : 0);
                         }
                     }
                 }.visit(JavaParser.parse(file), null);

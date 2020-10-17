@@ -15,7 +15,7 @@ public final class Analyser {
               this.analyse();
               this.getErrors();
           } catch (IOException ex) {
-              System.out.println(ex);
+              //System.out.println(ex);
           }
     }
     

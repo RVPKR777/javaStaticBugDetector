@@ -41,7 +41,8 @@ public class BugList {
     public void addBug(String file, int lineNo, String bugType) {
         this.bugs.add(new Bugs(file, lineNo, bugType));
     }
-    
+
+
     public void getErrors() {
         this.bugs.forEach(bug -> System.out.println(bug));
     }
