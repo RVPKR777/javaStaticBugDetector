@@ -56,7 +56,7 @@ public class HashCodeAnalyser {
                 ex.printStackTrace();
             }
             
-            if (!equalPresent[0] && hashPresent[0]) {
+            if (equalPresent[0] != true && hashPresent[0] == true) {
                 bugs.addBug(file.toString(), errorLine[0], this.equalBugType);
             }
         });
