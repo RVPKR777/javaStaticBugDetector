@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6a900d3-632d-4bd8-8a8f-a71f9c7bde05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/Analyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/Analyser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/BugList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/BugList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/DuplicateCatchAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/DuplicateCatchAnalyser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/HashCodeAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/HashCodeAnalyser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/TraverseDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/TraverseDir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/UnnecessaryIfCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/UnnecessaryIfCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/Analyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/Analyser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/BugList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/BugList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/HashCodeAnalyser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/HashCodeAnalyser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/HashCodeAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/HashCodeAnalyser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

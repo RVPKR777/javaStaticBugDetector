@@ -34,17 +34,21 @@ public class HashCodeAnalyser {
                     @Override
                     public void visit(MethodDeclaration mthodDeclaration, Object args) {
                         super.visit(mthodDeclaration, args);
-                        if (mthodDeclaration.getNameAsString().equals("equals") && mthodDeclaration.getTypeAsString().equals("boolean")) {
+                        if (mthodDeclaration.getNameAsString().equals("hashCode") &&
+                                mthodDeclaration.getTypeAsString().equals("int") &&
+                                mthodDeclaration.getParameters().isEmpty()) {
+                            hashPresent[0] = true;
+                            errorLine[0] = (mthodDeclaration.getRange().isPresent() ? mthodDeclaration.getRange().get().begin.line : 0);
+                        }
+                        else if (mthodDeclaration.getNameAsString().equals("equals") && mthodDeclaration.getTypeAsString().equals("boolean")) {
                             NodeList<Parameter> nodes = mthodDeclaration.getParameters();
                             if ((nodes.size() == 1) && (nodes.get(0).getTypeAsString().equals("Object"))) {
                                 equalPresent[0] = true;
 
                             }
-                        } else if (mthodDeclaration.getNameAsString().equals("hashCode") &&
-                                mthodDeclaration.getTypeAsString().equals("int") &&
-                                mthodDeclaration.getParameters().isEmpty()) {
-                                    hashPresent[0] = true;
-                                    errorLine[0] = (mthodDeclaration.getRange().isPresent() ? mthodDeclaration.getRange().get().begin.line : 0);
+                        }
+                        else{
+
                         }
                     }
                 }.visit(JavaParser.parse(file), null);
