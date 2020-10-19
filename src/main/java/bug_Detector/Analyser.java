@@ -25,9 +25,9 @@ public final class Analyser {
      * Calls various analyser functions
      */
     public void analyse() {
-        new HashCodeAnalyser(this.files).analyse();
-        new DuplicateCatchAnalyser(this.files).analyse();
-        new UnnecessaryIfCondition(this.files).analyse();
+        new hashcode_No_Equals(this.files).analyse();
+        new inadequate_Log_Info(this.files).analyse();
+        new useless_Control_Flow(this.files).analyse();
     }
 
     /**

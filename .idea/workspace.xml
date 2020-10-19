@@ -2,31 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a900d3-632d-4bd8-8a8f-a71f9c7bde05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/error_Log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files_To_Test/hashcode_No-Equals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files_To_Test/hashcodeequals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hashcodenoequalstest/TestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hashcodenoequalstest/hashcode_No_Equals_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/Analyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/Analyser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/BugList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/BugList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/DuplicateCatchAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/DuplicateCatchAnalyser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/HashCodeAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/HashCodeAnalyser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/TraverseDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/TraverseDir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/UnnecessaryIfCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/UnnecessaryIfCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/DuplicateCatchAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/inadequate_Log_Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/HashCodeAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/hashcode_No_Equals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/UnnecessaryIfCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/useless_Control_Flow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/Analyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/Analyser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/BugList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/BugList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/Bugs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/Bugs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/DuplicateCatchAnalyser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/DuplicateCatchAnalyser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/DuplicateCatchAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/DuplicateCatchAnalyser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/HashCodeAnalyser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/HashCodeAnalyser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/HashCodeAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/HashCodeAnalyser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/TraverseDir$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/TraverseDir$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/TraverseDir.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/TraverseDir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/DuplicateCatchAnalyser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/DuplicateCatchAnalyser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/HashCodeAnalyser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/HashCodeAnalyser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../analyserAssgn (2)/analyserAssgn" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.hashcode_No_Equals_Test.testOutput">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bug_Detector.Main" />
       <module name="java_Static_Bug_Detector" />
@@ -118,8 +117,42 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="hashcode_No_Equals_Test.equalhashcodetest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_Static_Bug_Detector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashcodenoequalstest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hashcodenoequalstest" />
+      <option name="MAIN_CLASS_NAME" value="hashcodenoequalstest.hashcode_No_Equals_Test" />
+      <option name="METHOD_NAME" value="equalhashcodetest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hashcode_No_Equals_Test.testOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_Static_Bug_Detector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashcodenoequalstest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hashcodenoequalstest" />
+      <option name="MAIN_CLASS_NAME" value="hashcodenoequalstest.hashcode_No_Equals_Test" />
+      <option name="METHOD_NAME" value="testOutput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.hashcode_No_Equals_Test.testOutput" />
+        <item itemvalue="JUnit.hashcode_No_Equals_Test.equalhashcodetest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
       </list>
@@ -142,26 +175,46 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1603131035626">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603131035626" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602950636839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602950636839" />
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1603121983241">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1603131037060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603121983241" />
-    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1603121983241">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603131037060" />
+    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1603131037060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603121983241" />
-    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1603121983241">
+    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603131037060" />
+    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1603131037060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603121983241" />
-    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1603121983241">
+    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603131037060" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1603131037060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603121983241" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603131037060" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1603130785612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603130785612" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1603130785612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603130785612" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1603130785611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603130785611" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1603130785612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603130785612" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1602856418712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

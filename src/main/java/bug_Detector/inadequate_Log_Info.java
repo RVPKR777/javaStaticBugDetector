@@ -20,11 +20,11 @@ import java.util.List;
  * Class used to find duplicate logging information in catch block
  */
 
-public class DuplicateCatchAnalyser {
+public class inadequate_Log_Info {
     private final ArrayList<Path> files;
     private final BugList bugs;
     
-    public DuplicateCatchAnalyser(ArrayList<Path> file) {
+    public inadequate_Log_Info(ArrayList<Path> file) {
         this.bugs = BugList.getInstance();
         this.files = file;
     }

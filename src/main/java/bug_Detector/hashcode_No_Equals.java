@@ -14,12 +14,12 @@ import java.util.ArrayList;
  * Method to find classes with hashcode but not equals
  */
 
-public class HashCodeAnalyser {
+public class hashcode_No_Equals {
     private final ArrayList<Path> files;
     private final BugList bugs;
     private final String equalBugType = "HE_HASHCODE_NO_EQUALS";
     
-    public HashCodeAnalyser(ArrayList<Path> file) {
+    public hashcode_No_Equals(ArrayList<Path> file) {
         this.bugs = BugList.getInstance();
         this.files = file;
     }

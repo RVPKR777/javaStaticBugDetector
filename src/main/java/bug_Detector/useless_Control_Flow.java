@@ -14,11 +14,11 @@ import java.util.List;
  * Class used to analyse useless control flow
  */
 
-public class UnnecessaryIfCondition {
+public class useless_Control_Flow {
     private final ArrayList<Path> files;
     private final BugList bugs;
 
-    public UnnecessaryIfCondition(ArrayList<Path> file) {
+    public useless_Control_Flow(ArrayList<Path> file) {
         this.bugs = BugList.getInstance();
         this.files = file;
     }
