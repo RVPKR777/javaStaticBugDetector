@@ -3,9 +3,6 @@ package bug_Detector;
 
 import com.github.javaparser.JavaParser;
 import com.github.javaparser.ast.Node;
-import com.github.javaparser.ast.NodeList;
-import com.github.javaparser.ast.body.MethodDeclaration;
-import com.github.javaparser.ast.body.Parameter;
 import com.github.javaparser.ast.expr.MethodCallExpr;
 import com.github.javaparser.ast.expr.StringLiteralExpr;
 import com.github.javaparser.ast.stmt.BlockStmt;
@@ -19,6 +16,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+/**
+ * Class used to find duplicate logging information in catch block
+ */
+
 public class DuplicateCatchAnalyser {
     private final ArrayList<Path> files;
     private final BugList bugs;
@@ -29,13 +30,8 @@ public class DuplicateCatchAnalyser {
     }
     
     public void analyse() {
-        final int[] errorLine = {0};
-        final boolean[] hashPresent = {false}, equalPresent = {false};
         
         this.files.forEach(file -> {
-            equalPresent[0] = false;
-            hashPresent[0] = false;
-            errorLine[0] = 0;
             try {
                 new VoidVisitorAdapter<Object>() {
                     @Override
@@ -70,10 +66,9 @@ public class DuplicateCatchAnalyser {
                                                         }
                                                     }
 
-                                                    // Report the bug if need be
                                                     if (isBugPresent) {
                                                         int lineNumber = method.getRange().isPresent() ? method.getRange().get().begin.line : 0;
-                                                        bugs.addBug(file.toString(), lineNumber, "Duplicate Catch");
+                                                        bugs.addBug(file.toString(), lineNumber, "INADEQUATE_LOGGING_INFO_IN_CATCH_BLOCKS");
                                                     }
                                                 }
                                             }

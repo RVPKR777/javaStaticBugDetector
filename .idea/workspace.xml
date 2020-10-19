@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a900d3-632d-4bd8-8a8f-a71f9c7bde05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_Log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/Analyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/Analyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/BugList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/BugList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/DuplicateCatchAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/DuplicateCatchAnalyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/HashCodeAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/HashCodeAnalyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/TraverseDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/TraverseDir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/UnnecessaryIfCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/UnnecessaryIfCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bug_Detector/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bug_Detector/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/Analyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/Analyser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/BugList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/BugList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/Bugs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/Bugs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/DuplicateCatchAnalyser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/DuplicateCatchAnalyser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/DuplicateCatchAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/DuplicateCatchAnalyser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/HashCodeAnalyser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/HashCodeAnalyser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/HashCodeAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/HashCodeAnalyser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/TraverseDir$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/TraverseDir$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/TraverseDir.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/TraverseDir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bug_Detector/UnnecessaryIfCondition.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +58,16 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ioIIKGxRb5bwRDhVNr0o1zbE9N" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../analyserAssgn (2)/analyserAssgn" />
@@ -111,27 +138,30 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602950636839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602950636839" />
-    <state width="1877" height="364" key="GridCell.Tab.0.bottom" timestamp="1602966065174">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1603121983241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602966065174" />
-    <state width="1877" height="364" key="GridCell.Tab.0.center" timestamp="1602966065174">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603121983241" />
+    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1603121983241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602966065174" />
-    <state width="1877" height="364" key="GridCell.Tab.0.left" timestamp="1602966065174">
+    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603121983241" />
+    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1603121983241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602966065174" />
-    <state width="1877" height="364" key="GridCell.Tab.0.right" timestamp="1602966065174">
+    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603121983241" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1603121983241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602966065174" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603121983241" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1602856418712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

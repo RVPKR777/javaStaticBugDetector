@@ -10,11 +10,14 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
 
+/**
+ * Method to find classes with hashcode but not equals
+ */
 
 public class HashCodeAnalyser {
     private final ArrayList<Path> files;
     private final BugList bugs;
-    private final String equalBugType = "Equals";
+    private final String equalBugType = "HE_HASHCODE_NO_EQUALS";
     
     public HashCodeAnalyser(ArrayList<Path> file) {
         this.bugs = BugList.getInstance();
@@ -32,16 +35,16 @@ public class HashCodeAnalyser {
             try {
                 new VoidVisitorAdapter<Object>() {
                     @Override
-                    public void visit(MethodDeclaration mthodDeclaration, Object args) {
-                        super.visit(mthodDeclaration, args);
-                        if (mthodDeclaration.getNameAsString().equals("hashCode") &&
-                                mthodDeclaration.getTypeAsString().equals("int") &&
-                                mthodDeclaration.getParameters().isEmpty()) {
+                    public void visit(MethodDeclaration methodDeclaration, Object args) {
+                        super.visit(methodDeclaration, args);
+                        if (methodDeclaration.getNameAsString().equals("hashCode") &&
+                                methodDeclaration.getTypeAsString().equals("int") &&
+                                methodDeclaration.getParameters().isEmpty()) {
                             hashPresent[0] = true;
-                            errorLine[0] = (mthodDeclaration.getRange().isPresent() ? mthodDeclaration.getRange().get().begin.line : 0);
+                            errorLine[0] = (methodDeclaration.getRange().isPresent() ? methodDeclaration.getRange().get().begin.line : 0);
                         }
-                        else if (mthodDeclaration.getNameAsString().equals("equals") && mthodDeclaration.getTypeAsString().equals("boolean")) {
-                            NodeList<Parameter> nodes = mthodDeclaration.getParameters();
+                        else if (methodDeclaration.getNameAsString().equals("equals") && methodDeclaration.getTypeAsString().equals("boolean")) {
+                            NodeList<Parameter> nodes = methodDeclaration.getParameters();
                             if ((nodes.size() == 1) && (nodes.get(0).getTypeAsString().equals("Object"))) {
                                 equalPresent[0] = true;
 

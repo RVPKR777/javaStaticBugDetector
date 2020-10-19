@@ -8,6 +8,9 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.function.BiPredicate;
 
+/**
+ * Get the list of all java files in the given path.
+ */
 
 public class TraverseDir {
     private final String directory;

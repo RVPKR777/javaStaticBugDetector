@@ -1,6 +1,13 @@
 package bug_Detector;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.io.FileWriter;
+
+/**
+ * Class used to do all input and output operations
+ */
 
 class Bugs {
     private final String file;
@@ -24,7 +31,7 @@ public class BugList {
     private static BugList instance = null; 
     private final ArrayList<Bugs> bugs;
     
-    private BugList() { 
+    private BugList() {
         this.bugs = new ArrayList<>();
     }
     
@@ -34,7 +41,6 @@ public class BugList {
         if (instance == null) {
             instance = new BugList(); 
         }
-  
         return BugList.instance; 
     } 
     
@@ -42,8 +48,8 @@ public class BugList {
         this.bugs.add(new Bugs(file, lineNo, bugType));
     }
 
-
-    public void getErrors() {
+    public void getErrors() throws IOException {
         this.bugs.forEach(bug -> System.out.println(bug));
     }
+
 }
