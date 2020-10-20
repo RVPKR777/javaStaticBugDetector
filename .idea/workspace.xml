@@ -46,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../analyserAssgn (2)/analyserAssgn" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.All in java_Static_Bug_Detector">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bug_Detector.Main" />
       <module name="java_Static_Bug_Detector" />
@@ -79,6 +79,14 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="All in java_Static_Bug_Detector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_Static_Bug_Detector" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="inadequate_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_Static_Bug_Detector" />
       <extension name="coverage">
@@ -90,22 +98,6 @@
       <option name="PACKAGE_NAME" value="test_Cases" />
       <option name="MAIN_CLASS_NAME" value="test_Cases.inadequate_test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="inadequate_test.hashcode_No_Equals_Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_Static_Bug_Detector" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test_Cases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test_Cases" />
-      <option name="MAIN_CLASS_NAME" value="test_Cases.inadequate_test" />
-      <option name="METHOD_NAME" value="hashcode_No_Equals_Test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="useless_control_flow_test.uselesscontrolflow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="inadequate_test.inadequatetest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_Static_Bug_Detector" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +127,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test_Cases" />
-      <option name="MAIN_CLASS_NAME" value="test_Cases.useless_control_flow_test" />
-      <option name="METHOD_NAME" value="uselesscontrolflow" />
+      <option name="MAIN_CLASS_NAME" value="test_Cases.inadequate_test" />
+      <option name="METHOD_NAME" value="inadequatetest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.useless_control_flow_test.uselesscontrolflow" />
-        <item itemvalue="JUnit.inadequate_test.inadequatetest" />
+        <item itemvalue="JUnit.All in java_Static_Bug_Detector" />
         <item itemvalue="JUnit.inadequate_test" />
-        <item itemvalue="JUnit.inadequate_test.hashcode_No_Equals_Test1" />
+        <item itemvalue="JUnit.inadequate_test.inadequatetest" />
+        <item itemvalue="JUnit.inadequate_test.inadequatetest1" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -177,22 +169,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602950636839" />
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1603161435246">
+    <state width="1877" height="103" key="GridCell.Tab.0.bottom" timestamp="1603165775420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603161435246" />
-    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1603161435246">
+    <state width="1877" height="103" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603165775420" />
+    <state width="1877" height="103" key="GridCell.Tab.0.center" timestamp="1603165775420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603161435246" />
-    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1603161435246">
+    <state width="1877" height="103" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603165775420" />
+    <state width="1877" height="103" key="GridCell.Tab.0.left" timestamp="1603165775420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603161435246" />
-    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1603161435246">
+    <state width="1877" height="103" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603165775420" />
+    <state width="1877" height="103" key="GridCell.Tab.0.right" timestamp="1603165775420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603161435246" />
+    <state width="1877" height="103" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603165775420" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1603130785612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
