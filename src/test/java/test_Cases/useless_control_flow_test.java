@@ -3,6 +3,9 @@ package test_Cases;
 import bug_Detector.Analyser;
 import org.junit.Test;
 
+/**
+ * Test cases to test the functionality of useless control flow
+ */
 import java.io.ByteArrayOutputStream;
 
 import static org.junit.Assert.assertNotEquals;

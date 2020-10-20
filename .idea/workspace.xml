@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a900d3-632d-4bd8-8a8f-a71f9c7bde05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/files_To_Test/Useless_control_flow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files_To_Test/inadequate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files_To_Test/inadequate_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_Cases/inadequate_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_Cases/useless_control_flow_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hashcodenoequalstest/TestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_Cases/TestHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hashcodenoequalstest/hashcode_No_Equals_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_Cases/hashcode_No_Equals_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hashcodenoequalstest/CaptureTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hashcodenoequalstest/TestHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hashcodenoequalstest/hashcode_No_Equals_Test$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hashcodenoequalstest/hashcode_No_Equals_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_Cases/hashcode_No_Equals_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_Cases/hashcode_No_Equals_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_Cases/inadequate_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_Cases/inadequate_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_Cases/useless_control_flow_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_Cases/useless_control_flow_test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

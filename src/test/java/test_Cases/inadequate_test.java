@@ -8,6 +8,10 @@ import java.io.ByteArrayOutputStream;
 import static org.junit.Assert.assertNotEquals;
 import static test_Cases.TestHelper.captureOutput;
 
+/**
+ * Testcases to test the functionality of inadequate method
+ */
+
 public class inadequate_test {
 
     @Test

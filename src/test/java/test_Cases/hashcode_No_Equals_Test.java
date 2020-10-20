@@ -8,6 +8,10 @@ import java.io.ByteArrayOutputStream;
 import static test_Cases.TestHelper.captureOutput;
 import static org.junit.Assert.assertNotEquals;
 
+/**
+ * Test cases to test the functionalities of hashcode not equals functionality
+ */
+
 public class hashcode_No_Equals_Test {
 
     @Test
