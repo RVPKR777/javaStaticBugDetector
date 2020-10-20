@@ -1,4 +1,4 @@
-package hashcodenoequalstest;
+package test_Cases;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileDescriptor;

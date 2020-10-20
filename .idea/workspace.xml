@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a900d3-632d-4bd8-8a8f-a71f9c7bde05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/files_To_Test/Useless_control_flow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files_To_Test/inadequate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files_To_Test/inadequate_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_Cases/inadequate_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_Cases/useless_control_flow_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hashcodenoequalstest/hashcode_No_Equals_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hashcodenoequalstest/hashcode_No_Equals_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hashcodenoequalstest/hashcode_No_Equals_Test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hashcodenoequalstest/hashcode_No_Equals_Test$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hashcodenoequalstest/hashcode_No_Equals_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hashcodenoequalstest/hashcode_No_Equals_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hashcodenoequalstest/TestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_Cases/TestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hashcodenoequalstest/hashcode_No_Equals_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_Cases/hashcode_No_Equals_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hashcodenoequalstest/CaptureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hashcodenoequalstest/TestHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hashcodenoequalstest/hashcode_No_Equals_Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hashcodenoequalstest/hashcode_No_Equals_Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +60,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../analyserAssgn (2)/analyserAssgn" />
   </component>
-  <component name="RunManager" selected="JUnit.All in java_Static_Bug_Detector">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bug_Detector.Main" />
+      <module name="java_Static_Bug_Detector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bug_Detector.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -71,72 +93,64 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="All in java_Static_Bug_Detector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_Static_Bug_Detector" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="hashcode_No_Equals_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="inadequate_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_Static_Bug_Detector" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashcodenoequalstest.*" />
+          <option name="PATTERN" value="test_Cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hashcodenoequalstest" />
-      <option name="MAIN_CLASS_NAME" value="hashcodenoequalstest.hashcode_No_Equals_Test" />
+      <option name="PACKAGE_NAME" value="test_Cases" />
+      <option name="MAIN_CLASS_NAME" value="test_Cases.inadequate_test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hashcode_No_Equals_Test.hashcode_No_Equals_Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="inadequate_test.hashcode_No_Equals_Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_Static_Bug_Detector" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashcodenoequalstest.*" />
+          <option name="PATTERN" value="test_Cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hashcodenoequalstest" />
-      <option name="MAIN_CLASS_NAME" value="hashcodenoequalstest.hashcode_No_Equals_Test" />
+      <option name="PACKAGE_NAME" value="test_Cases" />
+      <option name="MAIN_CLASS_NAME" value="test_Cases.inadequate_test" />
       <option name="METHOD_NAME" value="hashcode_No_Equals_Test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hashcode_No_Equals_Test.hashcode_No_Equals_Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="inadequate_test.inadequatetest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_Static_Bug_Detector" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashcodenoequalstest.*" />
+          <option name="PATTERN" value="test_Cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hashcodenoequalstest" />
-      <option name="MAIN_CLASS_NAME" value="hashcodenoequalstest.hashcode_No_Equals_Test" />
-      <option name="METHOD_NAME" value="hashcode_No_Equals_Test2" />
+      <option name="PACKAGE_NAME" value="test_Cases" />
+      <option name="MAIN_CLASS_NAME" value="test_Cases.inadequate_test" />
+      <option name="METHOD_NAME" value="inadequatetest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hashcode_No_Equals_Test.testOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="useless_control_flow_test.uselesscontrolflow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_Static_Bug_Detector" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashcodenoequalstest.*" />
+          <option name="PATTERN" value="test_Cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hashcodenoequalstest" />
-      <option name="MAIN_CLASS_NAME" value="hashcodenoequalstest.hashcode_No_Equals_Test" />
-      <option name="METHOD_NAME" value="testOutput" />
+      <option name="PACKAGE_NAME" value="test_Cases" />
+      <option name="MAIN_CLASS_NAME" value="test_Cases.useless_control_flow_test" />
+      <option name="METHOD_NAME" value="uselesscontrolflow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in java_Static_Bug_Detector" />
-        <item itemvalue="JUnit.hashcode_No_Equals_Test" />
-        <item itemvalue="JUnit.hashcode_No_Equals_Test.hashcode_No_Equals_Test2" />
-        <item itemvalue="JUnit.hashcode_No_Equals_Test.hashcode_No_Equals_Test1" />
-        <item itemvalue="JUnit.hashcode_No_Equals_Test.testOutput" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.useless_control_flow_test.uselesscontrolflow" />
+        <item itemvalue="JUnit.inadequate_test.inadequatetest" />
+        <item itemvalue="JUnit.inadequate_test" />
+        <item itemvalue="JUnit.inadequate_test.hashcode_No_Equals_Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -177,22 +191,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602950636839" />
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1603142990720">
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1603161435246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603142990720" />
-    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1603142990720">
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603161435246" />
+    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1603161435246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603142990720" />
-    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1603142990720">
+    <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603161435246" />
+    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1603161435246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603142990720" />
-    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1603142990720">
+    <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603161435246" />
+    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1603161435246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603142990720" />
+    <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603161435246" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1603130785612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
